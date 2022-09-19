@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "ps-project-dashboard-client-side-solution",
+    "id": "bdc682c2-579f-4e45-8476-bb407fd9836a",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "PS-ProjectDashboard description"
+      },
+      "longDescription": {
+        "default": "PS-ProjectDashboard description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "ps-project-dashboard Feature",
+        "description": "The feature that activates elements of the ps-project-dashboard solution.",
+        "id": "fe2ea795-5b13-401f-b1f3-3c4b1fe90557",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/ps-project-dashboard.sppkg"
+  }
+}

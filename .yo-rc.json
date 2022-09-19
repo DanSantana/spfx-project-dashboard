@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "ps-project-dashboard",
+    "libraryId": "bdc682c2-579f-4e45-8476-bb407fd9836a",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "PS-ProjectDashboard",
+    "solutionShortDescription": "PS-ProjectDashboard description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

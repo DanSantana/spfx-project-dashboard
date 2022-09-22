@@ -18,13 +18,13 @@ export class Projects extends React.Component<ProjectProps,ProjectState>{
         this.props.context.spHttpClient
             .get(
                 `${this.props.context.pageContext.web
-                    .absoluteUrl}_api/personal/dnnadmin_1n1x2f_onmicrosoft_com/List/GetByTitle('Projects')/Items?$expand=ProjectManager&$select=*,ProjectManager/EMail,ProjectManager/Title`,
+                    .absoluteUrl}/_api/web/lists/GetByTitle('Projects')/Items',
                 SPHttpClient.configurations.v1
             )
             .then(
                 (response: SPHttpClientResponse): Promise<{ value: any[] }> => {
                     console.table(response);
-                    return response.json();                    
+                    return response.json();                  
 
                 }
             )

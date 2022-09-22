@@ -5,7 +5,7 @@
       "name": "Hosted workbench",
       "type": "pwa-chrome",
       "request": "launch",
-      "url": "https://dnnadmin@1n1x2f-admin.sharepoint.com/_layouts/workbench.aspx",
+      "url": "https://1n1x2f.sharepoint.com/_layouts/workbench.aspx",
       "webRoot": "${workspaceRoot}",
       "sourceMaps": true,
       "sourceMapPathOverrides": {

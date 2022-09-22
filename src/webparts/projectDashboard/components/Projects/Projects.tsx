@@ -18,7 +18,7 @@ export class Projects extends React.Component<ProjectProps,ProjectState>{
         this.props.context.spHttpClient
             .get(
                 `${this.props.context.pageContext.web
-                    .absoluteUrl}/_api/web/lists/GetByTitle('Projects')/Items',
+                    .absoluteUrl}/sites/projectfisrt/_api/web/lists/GetByTitle('Projects')/Items`,
                 SPHttpClient.configurations.v1
             )
             .then(
